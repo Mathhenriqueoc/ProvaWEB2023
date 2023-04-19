@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*Se quiser fazer Comentários CSS */
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1d61dd;
+    color: white;
+}
+
+header {
+    background: no-repeat center/cover url("assets/tailandia.jpg");
+    height: calc(100vh - 100px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
+    font-size: 3rem;
+}
+
+.pacotes {
+    background: #1601d3;
+    padding: 15px;
+}
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: rgb(250, 224, 248);
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #e70b03;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin:0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+    background: #493d3d;
+}
+
+.servicos .servicos-cards {
+    margin-top:  25px;
+    display: flex;
+    max-width: 950px;
+    justify-content:  center;
+    margin: auto;
+    background: #000000;
+
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    background: #0206ff;
+}
+
+.serviços .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card svg:hover {
+    stroke: blue;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: rgb(10, 0, 0);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.contatos {
+    height: 500px;
+    background: rgba(2, 70, 5, 0.692);
+    justify-content: center;
+    text-align: center;
+}
+
+.contatos .fontes {
+    height: 40px;
+    color:rgb(243, 238, 238);
+    font-size: 8px;
+    background: black;
+    justify-content: center;
+}
+
+.contatos .facebook {
+    color: rgb(3, 17, 219);
+    font-size: 8px;
+    justify-content: center;
+    
+
+}
+
+.contato .twitter {
+    color: rgb(12, 198, 223);
+    font-size: 8px;
+    justify-content: center;
+}
+
+.contato .instagram {
+    color: rgb(169, 3, 219);
+    font-size: 8px;
+    justify-content: center;
+
+}
