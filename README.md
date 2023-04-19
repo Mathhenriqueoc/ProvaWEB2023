@@ -10,6 +10,6 @@
 
 ![Logo do IFPR](https://github.com/prof-fernando-alves/siteviagens_webI_2023/blob/4489faa022cc2e625bb08a4817cd194df95683b7/logoifpr.png)
  
- **By Fernando Alves**
+ **By Mateus Henrique De Oliveira Carvalho**
 
 > Written with [StackEdit](https://stackedit.io/).
