@@ -20,8 +20,8 @@ button {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: #1d61dd;
-    color: white;
+    background: #30f100;
+    color: rgb(8, 23, 233);
 }
 
 header {
@@ -51,6 +51,7 @@ header nav p {
     max-width: 400px;
     margin: 150px auto;
     text-align: center;
+    background-color: rgba(12, 44, 131, 0.349);
 }
 
 .header-content h1 {
@@ -63,11 +64,14 @@ header nav p {
     text-align: center;
     margin:25px 0;
     font-size: 3rem;
+    color: #30f100;
 }
 
 .pacotes {
-    background: #1601d3;
+    background: no-repeat center/cover url("assets/796228.jpg");
+    background-size: 2450px;
     padding: 15px;
+
 }
 
 .pacotes .pacotes-card {
@@ -87,7 +91,7 @@ header nav p {
 .pacotes .card {
     width: 250px;
     height: 350px;
-    background: rgb(250, 224, 248);
+    background: rgb(54, 3, 238);
     border-radius: 24px 0;
     margin: 25px;
     position: relative;
@@ -126,7 +130,7 @@ header nav p {
     position: absolute;
     right: 0;
     top: 15px;
-    background: #e70b03;
+    background: #e0d20d;
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
 }
@@ -135,7 +139,7 @@ header nav p {
     position: absolute;
     left: 0;
     top: 160px;
-    background: #1d61dd;
+    background: #1ddd37;
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
 }
@@ -146,11 +150,14 @@ header nav p {
     color: white;
     font-weight: bold;
 }
-
+.servicos {
+    background: no-repeat center/cover url("assets/dark.jpg");
+}
 .servicos .servicos-title {
     text-align: center;
     margin: 35px 0;
-    background: #493d3d;
+    background: #16f802;
+    
 }
 
 .servicos .servicos-cards {
@@ -159,7 +166,7 @@ header nav p {
     max-width: 950px;
     justify-content:  center;
     margin: auto;
-    background: #000000;
+    background: #f8f8f8;
 
 }
 
@@ -200,13 +207,12 @@ header nav p {
 }
 
 .contatos {
-    height: 500px;
-    background: rgba(2, 70, 5, 0.692);
+    height: 270px;
     justify-content: center;
     text-align: center;
 }
 
-.contatos .fontes {
+ .fontes {
     height: 40px;
     color:rgb(243, 238, 238);
     font-size: 8px;
@@ -214,23 +220,33 @@ header nav p {
     justify-content: center;
 }
 
-.contatos .facebook {
-    color: rgb(3, 17, 219);
+.facebook {
+    color: rgb(0, 0, 0);
     font-size: 8px;
     justify-content: center;
+    background-color: rgb(3, 3, 211);
     
 
 }
 
-.contato .twitter {
-    color: rgb(12, 198, 223);
+.twitter {
+    color: rgb(0, 0, 0);
     font-size: 8px;
     justify-content: center;
+    background-color: rgb(24, 190, 2);
 }
 
-.contato .instagram {
-    color: rgb(169, 3, 219);
+.instagram {
+    color: rgb(0, 0, 0);
     font-size: 8px;
     justify-content: center;
+    background-color:#ffee00
+}
+
+.tel {
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    justify-content: center;
+    background-color:#000000
 
 }
